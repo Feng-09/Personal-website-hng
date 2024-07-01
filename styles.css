@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+MX:wght@100..400&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+body {
+    background-color: #e0af74;
+}
+header {
+    font-family: "Playwrite MX", cursive;
+    display: flex;
+    height: 5rem;
+    padding: 1rem;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+main {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+main h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+}
+
+main p {
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: 1.5rem;
+}
+
+main .stack {
+    font-weight: 600;
+}
+
+main img {
+    border-radius: 90rem;
+    margin-top: 1rem;
+}
+
+.goals {
+    background-color: #eecda0;
+    border-radius: 2rem;
+    border: 3px solid #986549;
+    padding: 1rem;
+    padding-top: 2rem;
+    text-align: start;
+    margin-top: 2rem;
+}
+
+.goals ul {
+    padding-left: 1.7rem;
+    margin-top: 1rem;
+}
+
+.goals li {
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    background-color: #e3f2f78c;
+    border-top: 5px solid #986549;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #07497c;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        flex-direction: row-reverse;
+        padding: 3rem;
+    }
+
+    main section {
+        width: 50%;
+    }
+}
