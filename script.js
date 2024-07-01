@@ -36,7 +36,7 @@ switch (today) {
     let currentUTCMinutes = new Date().getUTCMinutes();
     let currentUTCSeconds = new Date().getUTCSeconds();
   
-    currentTimeUTC.innerHTML = `${currentUTCHour}:${currentUTCMinutes.toString().padStart(2, '0')}:${currentUTCSeconds}`;
+    currentTimeUTC.innerHTML = `${currentUTCHour}:${currentUTCMinutes.toString().padStart(2, '0')}:${currentUTCSeconds.toString().padStart(2, '0')}`;
   };
   
   setInterval(displayTime, 1000);

@@ -91,9 +91,14 @@ footer a {
     main {
         flex-direction: row-reverse;
         padding: 3rem;
+        align-items: center;
     }
 
     main section {
         width: 50%;
+    }
+
+    .goals {
+        margin-top: 0;
     }
 }
