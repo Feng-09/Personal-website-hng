@@ -40,11 +40,7 @@ main p {
 
 main .stack {
     font-weight: 600;
-}
-
-main img {
-    border-radius: 90rem;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .goals {
